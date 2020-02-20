@@ -1,0 +1,6 @@
+name: tensorflow-notebook
+image: tensorflow/tensorflow:1.6.0-devel
+workdir: /data
+command: ["jupyter", "notebook", "--allow-root"]
+environment:
+  - PASSWORD=okteto
