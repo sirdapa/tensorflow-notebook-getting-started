@@ -1,4 +1,4 @@
-name: tensorflow-jupyter
+name: tensorflow-notebook-getting-started
 image: tensorflow/tensorflow:1.6.0-devel
 workdir: /data
 command: ["jupyter", "notebook", "--allow-root"]
